@@ -1,0 +1,22 @@
+{
+  "name": "kafka-nodejs-consumer",
+  "version": "1.0.0",
+  "description": "Kafka NodeJS Consumer",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "kafka",
+    "nodejs"
+  ],
+  "author": "tiko@ucraft.com",
+  "license": "ISC",
+  "dependencies": {
+    "bufferutil": "^4.0.6",
+    "kafkajs": "^1.15.0",
+    "kafkajs-snappy": "^1.1.0",
+    "utf-8-validate": "^5.0.8",
+    "ws": "^8.4.2"
+  }
+}
