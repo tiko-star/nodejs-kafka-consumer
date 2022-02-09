@@ -1,6 +1,6 @@
 const WebSocket = require("ws");
 
-const ws = new WebSocket("ws://localhost:8080");
+const ws = new WebSocket("ws://localhost:3000");
 
 ws.on("open", function open() {
     console.log("opened connection");
